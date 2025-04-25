@@ -3,22 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
     <link rel="stylesheet" href="style.css">
     <title>Blancanieves</title>
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Logo">
-        <nav>
-            <ul>
-                <il>DISNEY+</il>
-                <il>PARKS Y TRAVEL</il>
-                <il>MOVIES</il>
-                <il>SHOP</il>
-                <il>MORE</il>
-            </ul>
-        </nav>
-    </header>        
+  <header>
+    <nav class="navbar">
+      <div class="left-group">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Disney Logo" />
+        </a>
+        <ul class="nav-menu">
+          <li><a href="#">Disney+</a></li>
+          <li><a href="#">Parks & Travel</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+      <div class="right-group">
+        <a href="#" class="login">Log In</a>
+        <form class="search-box" role="search">
+          <input type="search" placeholder="Search" aria-label="Search" />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </nav>
+  </header>   
 
     <section class="banner">
       <div class="banner-content">
