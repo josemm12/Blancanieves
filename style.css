@@ -215,4 +215,65 @@
     text-decoration: underline;
   }
   
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /*---Stylos del Seccion Banner 2----*/
+  .disney-offer {
+    background-image: url('images/more-background.jpeg'); 
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding: 2rem;
+    color: #1a1a1a;
+  }
+  
+  .offer-content {
+    max-width: 500px;
+    text-align: left;
+    color: #000;
+  }
+  
+  .offer-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .offer-box {
+    margin-bottom: 1.5rem;
+  }
+  
+  .offer-box h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #8c46f9;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .disclaimer {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: #333;
+  }
+  
   
