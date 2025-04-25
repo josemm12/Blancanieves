@@ -13,13 +13,12 @@
     font-family: Arial, sans-serif;
   }
   
-  
+  /*---Stylos del header----*/
   header {
     border-bottom: 1px solid #ccc;
     background-color: white;
     padding: 10px 40px;
   }
-
 
   .navbar {
     display: flex;
@@ -49,7 +48,6 @@
     font-weight: bold;
     font-size: 14px;
   }
-  
   
   .right-group {
     display: flex;
@@ -88,6 +86,7 @@
     cursor: pointer;
   }
 
+   /*---Stylos del Banner----*/
   .banner {
     background-image: url('images/banner-background.png'); 
     background-size: cover;
@@ -155,4 +154,65 @@
     border: 2px solid white;
     color: white;
   }
+
+
+   /*---Stylos del Seccion card----*/
+  section[aria-label="Featured Snow White Content"] {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #5c50a3; 
+    flex-wrap: wrap;
+  }
+  
+  article {
+    background-color: #f9d65d; 
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  figcaption {
+    padding: 1rem;
+  }
+  
+  figcaption h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #000; 
+  }
+  
+  figcaption p {
+    font-size: 1rem;
+    color: #333; 
+    margin-bottom: 1rem;
+  }
+  
+  figcaption a {
+    font-weight: bold;
+    color: #000; 
+    text-decoration: none;
+  }
+  
+  figcaption a:hover {
+    text-decoration: underline;
+  }
+  
   
