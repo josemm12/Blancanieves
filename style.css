@@ -5,7 +5,7 @@
   }
   
   html, body {
-    height: 100%;
+    height: 100vh;
     overflow-x: hidden;
   }
 
@@ -89,7 +89,7 @@
    /*---Stylos del Banner----*/
   .banner {
     background-image: url('images/banner-background.png'); 
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -101,19 +101,19 @@
     position: relative;
   }
   
-  .banner::after {
+  /*.banner::after {
     content: '';
     position: absolute;
-    inset: 0;
+    inset: 0 ;
     background: rgba(0, 0, 0, 0.4); 
     z-index: 0;
-  }
+  }*/
   
   .banner-content {
     position: relative;
     z-index: 1;
     max-width: 600px;
-    padding: 20px;
+    padding: 10px;
   }
   
   .logo-one {
