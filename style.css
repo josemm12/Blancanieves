@@ -215,13 +215,6 @@
     text-decoration: underline;
   }
   
-
-  body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
   /*---Styles de la Sección Banner 2---*/
   .disney-offer {
     background-image: url('images/more-background.jpeg'); 
