@@ -221,7 +221,155 @@
     padding: 0;
     font-family: Arial, sans-serif;
   }
-  
+
+  /* Contenedor Seccion 2--- */
+.disney-container {
+    background-color: #003B4F;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.disney-container h2 {
+    margin-bottom: 30px;
+}
+
+.disney-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    height: 200;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Contenedor 3 para Seccion 3---- */
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 1rem;
+  padding: 2rem;
+  background-color: transparent; 
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.item {
+  background-color: transparent;
+  border-radius: 2px;
+  overflow: hidden;
+  width: 300px; 
+  margin: 10px; 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px; 
+}
+
+.item h2 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #000;
+}
+
+.item p {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Ofertas de Viajes */
+.vacation-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.vacation-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.vacation-offers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vacation-offer {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 40%;
+}
+
+.vacation-offer img {
+  width: 100%;
+  height: auto; 
+}
+
+.offer-details {
+  padding: 15px;
+}
+
+.offer-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.offer-details p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
   /*---Styles de la Sección Banner 2---*/
   .disney-offer {
     background-image: url('images/more-background.jpeg'); 
